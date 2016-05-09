@@ -76,6 +76,5 @@ public class Triangle {
 			e3.getMessage();
 			System.exit(1);
 		}
-		return;
 	}
 }
