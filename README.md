@@ -65,7 +65,6 @@ $ cd ..
 
 thinkorview@SonyVaio8 MINGW64 ~/workspace/danube-phan-triangle-type/src/main/java/triangle (master)
 $ cd ..
-
 ``` 
 
 You can begin entering in test lengths for the sides of a triangle with the following. Note: you must specify package:
