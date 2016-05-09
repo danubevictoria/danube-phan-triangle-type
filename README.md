@@ -58,20 +58,26 @@ thinkorview@SonyVaio8 MINGW64 ~/workspace/danube-phan-triangle-type/src/main/jav
 $ javac Triangle.java
 ```
 
-Once compiled successfully, run the following. Note: Java is case sensitive:
+Once compiled successfully, return to java/ directory.
 ```
 thinkorview@SonyVaio8 MINGW64 ~/workspace/danube-phan-triangle-type/src/main/java/triangle/triangle_type (master)
-$ java -cp . Triangle
-```
+$ cd ..
 
-You can begin entering in test lengths for the sides of a triangle and hit Enter:
+thinkorview@SonyVaio8 MINGW64 ~/workspace/danube-phan-triangle-type/src/main/java/triangle (master)
+$ cd ..
+
+``` 
+
+You can begin entering in test lengths for the sides of a triangle with the following. Note: you must specify package:
 ```
+thinkorview@SonyVaio8 MINGW64 ~/workspace/danube-phan-triangle-type/src/main/java (master)
+$ java triangle.triangle_type.Triangle
 Enter in lengths for sides of a triangle in a, b, and c.
-a: 
+a:
 1
-b: 
+b:
 1
-c: 
+c:
 1
 Equilateral
 ```
