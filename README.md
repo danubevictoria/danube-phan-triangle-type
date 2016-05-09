@@ -24,9 +24,9 @@ By the Transitive Property of Equality, if a = b, and b = c, then a = c. Therefo
 
 The second conditional is for a scalene because again there is only one possible way to be a scalene triangle, and this is if all three sides are unequal.
 
-> a != b 
-> b != c 
-> a != c
+> a != b <br>
+> b != c <br>
+> a != c <br>
 
 If it's been determined that the lengths given do make a valid triangle, and the type is not equilateral nor scalene, then it must be isosceles. This again adds to efficiency because an isosceles triangle is one where two sides are equal, but not the third, which could result from more than one possibilities:
 
