@@ -61,7 +61,7 @@ $ javac Triangle.java
 Once compiled successfully, run the following. Note: Java is case sensitive:
 ```
 thinkorview@SonyVaio8 MINGW64 ~/workspace/danube-phan-triangle-type/src/main/java/triangle/triangle_type (master)
-$ java Triangle
+$ java -cp . Triangle
 ```
 
 You can begin entering in test lengths for the sides of a triangle and hit Enter:
