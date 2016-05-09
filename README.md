@@ -36,4 +36,42 @@ If it's been determined that the lengths given do make a valid triangle, and the
 
 If the inputs are invalid, then no type can be determined and triangleType just returns null. If the inputs are valid, but they do not pass the Triangle Inequality Theorem to form a triangle, triangleType returns "Not a Triangle".
 
-## Tests
+## Installation
+This is a Maven project built through Eclipse IDE and also includes J-Unit test cases. After creating a github repository, this project was uploaded using git bash. Any revisions are done locally and pushed using git bash.
+
+To run this program, you'll need <a href="https://git-scm.com/downloads">to install git bash</a>. You'll also need to have the same versions of <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">JRE</a> and <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK</a> installed and set up correctly. To clone the directory, open git bash and go to the directory you wish to save the cloned project. For example:
+
+```
+thinkorview@SonyVaio8 MINGW64 ~ <br>
+$ cd workspace/
+```
+
+And run the following:
+```
+thinkorview@SonyVaio8 MINGW64 ~/workspace <br>
+$ git clone https://github.com/danubevictoria/danube-phan-triangle-type
+```
+
+Navigate to the java files to compile and run the following:
+```
+thinkorview@SonyVaio8 MINGW64 ~/workspace/danube-phan-triangle-type/src/main/java/triangle/triangle_type (master)<br>
+$ javac Triangle.java
+```
+
+Once compiled successfully, run the following:
+```
+thinkorview@SonyVaio8 MINGW64 ~/workspace/danube-phan-triangle-type/src/main/java/triangle/triangle_type (master)
+$ java Triangle
+```
+
+You can begin entering in test lengths for the sides of a triangle:
+```
+Enter in lengths for sides of a triangle in a, b, and c.<br>
+a: <br>
+1<br>
+b: <br>
+1<br>
+c: <br>
+1<br>
+Equilateral
+```
