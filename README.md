@@ -8,7 +8,7 @@ Given valid lengths of the triangle's three sides as input, this project determi
 ## Solution
 Before any type can be determined, we must first determine if the inputs of the three sides could actually make a triangle. <i>validTriangle</i> must first check that exactly 3 non-null integers greater than 0 are passed in. If not, then we appropriately handle any exceptions thrown and print out a useful message to the user what the issue was with the values used.
 
-If the lengths input are considered valid, <i?validTriangle</i> then checks that the 3 sides can pass the Triangle Inequality Theorem. The Triangle Inequality Theorem states that given the sum of the lengths of any two sides of the triangle, the sum is greater than the third. Therefore, the following inequalities must hold true in order to be considered a valid triangle:
+If the lengths input are considered valid, <i>validTriangle</i> then checks that the 3 sides can pass the Triangle Inequality Theorem. The Triangle Inequality Theorem states that given the sum of the lengths of any two sides of the triangle, the sum is greater than the third. Therefore, the following inequalities must hold true in order to be considered a valid triangle:
 
 > a + b > c <br>
 > a + c > b <br>
