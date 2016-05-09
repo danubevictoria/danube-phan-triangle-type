@@ -52,13 +52,13 @@ thinkorview@SonyVaio8 MINGW64 ~/workspace
 $ git clone https://github.com/danubevictoria/danube-phan-triangle-type
 ```
 
-Navigate to the java files to compile and run the following:
+Navigate to the java files to compile and run the following. Note: Java is case-sensitive:
 ```
 thinkorview@SonyVaio8 MINGW64 ~/workspace/danube-phan-triangle-type/src/main/java/triangle/triangle_type (master)
 $ javac Triangle.java
 ```
 
-Once compiled successfully, run the following:
+Once compiled successfully, run the following. Note: Java is case sensitive:
 ```
 thinkorview@SonyVaio8 MINGW64 ~/workspace/danube-phan-triangle-type/src/main/java/triangle/triangle_type (master)
 $ java Triangle
