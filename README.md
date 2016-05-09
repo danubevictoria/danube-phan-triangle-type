@@ -34,6 +34,6 @@ If it's been determined that the lengths given do make a valid triangle, and the
 > or a = c and a != c <br>
 > or b = c and b != a 
 
-If the inputs are invalid, then there is no type to determine and we just return null. If the inputs are valid, but they do not pass the Triangle Inequality Theorem to form a triangle, we return "Not a Triangle".
+If the inputs are invalid, then no type can be determined and triangleType just returns null. If the inputs are valid, but they do not pass the Triangle Inequality Theorem to form a triangle, triangleType returns "Not a Triangle".
 
 ## Tests
