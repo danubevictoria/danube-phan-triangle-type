@@ -85,6 +85,6 @@ If you receive this type of error:
 ```
 Error: Could not find or load main class triangle.triangle_type.Triangle
 ```
-Check that your environment variables in Advanced System Settings:
+Check your environment variables in Advanced System Settings:
 - PATH should be set to your JDK bin
 - CLASSPATH should not be set
